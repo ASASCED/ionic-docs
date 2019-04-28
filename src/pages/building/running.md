@@ -9,7 +9,7 @@ nextUrl: '/docs/building/ios'
 
 There are many different options to test native functionality depending on your target platforms and needs.
 
-* Implement [Platform Detection](/docs/building/cross-platform) for the native functionality and test with `ionic serve`
+* Implement [Platform Detection](/docs/building/cross-platform) for the native functionality and test with `ionic serve --devapp`
 * [Deploy to iOS](/docs/building/ios)
 * [Deploy to Android](/docs/building/android)
 * Deploy to iOS & Android instantly using [Ionic DevApp](/docs/building/running#ionic-devapp)
@@ -20,7 +20,7 @@ This article will focus on Ionic DevApp, as it includes the ability to test nati
 
 Ionic DevApp extends the capabilities of Ionic Framework, making it easy to test apps directly on devices. DevApp offers a realtime view of changes as they're being made, with a rich library of pre-installed native plugins to test native features of the app.
 
-There's no need to install complicated Native SDKs - all it takes is one simple command, `ionic serve`, and apps running anywhere DevApp is installed will be immediately available to preview, with LiveReload to refresh changes as soon as they're made.
+There's no need to install complicated Native SDKs - all it takes is one simple command, `ionic serve --devapp`, and apps running anywhere DevApp is installed will be immediately available to preview, with LiveReload to refresh changes as soon as they're made.
 
 ### Getting started
 
@@ -39,10 +39,10 @@ With DevApp installed, sign up or login to an Ionic Account.
 
 ## Serving the App
 
-Make sure the device running DevApp and the computer are on the same network, then run `ionic serve` from the command line in the project's directory.
+Make sure the device running DevApp and the computer are on the same network, then run `ionic serve --devapp` from the command line in the project's directory.
 
 <command-line>
-    <command-prompt>ionic serve</command-prompt>
+    <command-prompt>ionic serve --devapp</command-prompt>
     <command-output>
         > <span class="green">ng run app:serve --host=0.0.0.0 --port=8100</span>
         <br />
@@ -64,7 +64,7 @@ Make sure the device running DevApp and the computer are on the same network, th
     </command-output>
 </command-line>
 
-With `ionic serve` running, open DevApp and select the app from the currently running app list.
+With `ionic serve --devapp` running, open DevApp and select the app from the currently running app list.
 
 ![dev app with running app](/docs/assets/img/guides/running/dev-app-preview.png)
 
