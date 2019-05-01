@@ -120,22 +120,17 @@
 }
 .native-ee-pricing tbody th,
 .native-ee-pricing tbody td {
-  padding-top: 14px;
-  padding-bottom: 14px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 14px 16px 14px 16px;
 }
 .native-ee-pricing tbody .pill {
-  margin-top: -2px;
-  margin-left: 2px;
+  margin: -2px 0 0 2px;
   background: none;
 }
 .native-ee-pricing tbody .pill--blue {
   margin-left: 8px;
 }
 .native-ee-pricing tbody tr.combined th, .native-ee-pricing tbody tr.combined td {
-  padding-top: 45px;
-  padding-bottom: 22px;
+  padding: 45px 0 22px 0;
 }
 .native-ee-pricing tbody tr.combined th {
   font-size: 16px;
@@ -155,8 +150,7 @@
   font-weight: 600;
   color: #020814;
   border-top: none;
-  padding-top: 30px;
-  padding-bottom: 8px;
+  padding: 30px 0 8px 0;
 }
 .native-ee-pricing tbody th:not([colspan="4"]) {
   color: #4E5B6A;
@@ -201,8 +195,7 @@
 .native-ee-pricing tbody .small td,
 .native-ee-pricing tbody .small th {
   border-bottom: 1px solid #E9EDF3;
-  padding-top: 6px;
-  padding-bottom: 6px;
+  padding: 6px 0 6px 0;
 }
 .native-ee-pricing tbody .small th:first-child {
   color: #73849A;
